@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(1, 9, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainrow{
+    color: white;
+}
+.firstrow{
+    color: white;
+    
+}
+.secondrow{
+    color: white;
+    
+}
+.thirdrow{
+    color: white;
+    
+}
