@@ -15,7 +15,8 @@ import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Cart from "./Pages/Cart";
 
-import { CartProvider } from "./context/CartContext";
+// import { CartProvider } from "./Context/CartContext";
+import { CartProvider} from "./Context/CartContext"
 import Checkout from "./Pages/Checkout";
 
 function App() {
