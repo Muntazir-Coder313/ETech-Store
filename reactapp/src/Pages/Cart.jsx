@@ -23,7 +23,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 
 function Cart() {
   const {
