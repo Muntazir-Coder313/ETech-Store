@@ -21,7 +21,7 @@ import {
   Clock3,
 } from "lucide-react";
 
-import RelatedProducts from "../components/RelatedProducts";
+import RelatedProducts from "../Components/RelatedProducts";
 
 function ProductDetails() {
   const { id } = useParams();

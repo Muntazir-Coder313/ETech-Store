@@ -8,7 +8,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../Context/CartContext";
 
 function ProductCard({ item, onClick }) {
   const navigate = useNavigate();

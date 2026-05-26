@@ -372,12 +372,14 @@ function Product() {
                   {currentProducts.map((item) => (
 
                     <div
-                      key={item.id}
-                      onClick={() => handleCardClick(item.id)}
-                      className="cursor-pointer hover:-translate-y-1 transition duration-200"
-                    >
-                      <ProductCard item={item} />
-                    </div>
+  key={item.id}
+  className="cursor-pointer hover:-translate-y-1 transition duration-200"
+>
+  <ProductCard
+    item={item}
+    onClick={() => handleCardClick(item.id)}
+  />
+</div>
 
                   ))}
 
